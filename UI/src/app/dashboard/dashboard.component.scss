@@ -1,0 +1,137 @@
+body {
+    background-color: lightgray;
+}
+
+.card {
+    border-radius: 0px !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-l-30 {
+    padding-left: 30px;
+}
+
+.textfont {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.Offer_Extended {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2D2D;
+    margin-left: -10px;
+}
+.pad-t-50{
+    padding-top: 50px;
+
+}
+.m0{
+    margin: 0px;
+}
+.margin-t-b{
+    margin: 5px 0px 5px 0px;
+}
+.p0{
+    padding: 0px;
+}
+.offerCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  background-color: white;
+}
+.imgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avtar_icon{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+.degination{
+ font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #8A8A8A;
+}
+.H_color{
+    color: #8A8A8A !important;  
+}
+.offer_extended_column{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: black;
+}
+.border_line{
+    border-right: 1px solid;
+}
+.border_line::before{
+    content: '';
+    padding-left: 20px!important;
+}
+.thumb_icon{
+    width: 20px;
+}
+.description_column{
+    margin: 5px 0px 0px 0px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8A8A8A !important;
+}
+.btn_Aline{
+    display: flex;
+    align-items: center;
+}
+.three_dot_icon{
+    width: 14px;
+    height: 14px;
+}
+.ProspectsRow{
+text-align: center;
+padding: 6px;
+}
+.arrowBtn{
+    display: flex;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.border_none{
+    border-radius: 0px !important;
+}
+.txt-center{
+    text-align: center !important;
+}
+.Leads{
+    border-right: 1px solid darkgray !important;
+}
+.common_pad{
+    padding: 5px 0px 5px 0px;
+}
+.number_algne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
